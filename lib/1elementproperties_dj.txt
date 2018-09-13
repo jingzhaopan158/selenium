@@ -1,0 +1,51 @@
+username=name>userName
+userpass=name>passWord
+button=xpath>//input[@type='submit']
+
+//********************************进入后端******************************* 
+backend=xpath>//a[text()='\u7BA1\u7406']  
+
+//*********************************新增通知公告******************************* 
+InformationManagement=xpath>//ul[@class='layui-nav']/li[1]/a
+NoticeBulletin=xpath>//a[text()='\u901A\u77E5\u516C\u544A']
+NewAdd=xpath>//button[text()='\u65B0\u589E']
+title=name>title
+getinto=xpath>//div[@id='notice_content']//iframe
+content=xpath>//body[@class='view']
+notifications=xpath>//div[@class='layui-select-title']/input
+submit=xpath>//button[@class='layui-btn submit_btn']
+
+//*********************************活动管理（投票选举）******************************* 
+ActivityManagement=xpath>//ul[@class='layui-nav']/li[5]/a
+VoteElection=xpath>//a[text()='\u6295\u7968\u9009\u4E3E']
+CoverPhoto=xpath>//button[@type='button']
+EffectiveTime=xpath>//div[@class='layui-form']/div[5]/div/input
+AddProblem=xpath>//table[@class='layui-table']/tbody/tr[1]/td/a
+                 
+VotingContent=xpath>//tbody[@class='optionList']/tr[1]/td[1]/input
+VotingSorting=xpath>//tbody[@class='optionList']/tr[1]/td[2]/input
+
+//*********************************活动管理（调查问卷）******************************* 
+
+Questionnaire=xpath>//a[text()='\u8C03\u67E5\u95EE\u5377']
+briefIntroduction=name>briefIntroduction
+Problem=xpath>//table[@class='layui-table']/tbody[2]/tr[1]/td/a
+Termofvalidity=xpath>//input[@class='layui-input time termOfValidity']
+NameOfProblem=xpath>//table[@class='layui-table']/tbody[1]/tr[1]/td[1]/input
+OptionData=xpath>//table[@class='layui-table']/tbody[1]/tr[1]/td[3]/input
+TypeOfProblem=xpath>//table[@class='layui-table']/tbody[1]/tr[1]/td[2]/div
+
+
+//*********************************活动管理（组织活动）******************************* 
+OrganizationalActivity=xpath>//a[text()='\u7EC4\u7EC7\u6D3B\u52A8']
+ActivityClassification=xpath>//input[@class='layui-input layui-unselect']
+signUpTime=xpath>//input[@class='layui-input time signUpTime']
+activityTime=xpath>//input[@class='layui-input time activityTime']
+activityAddress=name>activityAddress
+activityBriefIntroduction=name>activityBriefIntroduction
+activityIntroduction=name>activityIntroduction
+AllowComments=xpath>//div[text()='\u662F']
+
+//*********************************退出******************************* 
+admin=xpath>//a[@class='user']/span
+signout=xpath>//li[@class='fr li_person layui-nav-item']/dl/dd/a

@@ -2,16 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13228" started-at="2018-09-04T23:42:02Z" finished-at="2018-09-04T23:42:15Z">
+  <suite name="Default suite" duration-ms="27427" started-at="2018-09-12T10:08:13Z" finished-at="2018-09-12T10:08:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13228" started-at="2018-09-04T23:42:02Z" finished-at="2018-09-04T23:42:15Z">
-      <class name="com.jingzhaopan.selenium.test001">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.jingzhaopan.selenium.test001@5bcea91b]" name="init" duration-ms="13183" started-at="2018-09-04T23:42:02Z" finished-at="2018-09-04T23:42:15Z">
+    <test name="Default test" duration-ms="27427" started-at="2018-09-12T10:08:13Z" finished-at="2018-09-12T10:08:41Z">
+      <class name="com.dangjian.selenium.testCase.login">
+        <test-method status="PASS" signature="getLoginHome()[pri:0, instance:com.dangjian.selenium.testCase.login@3214ee6]" name="getLoginHome" is-config="true" duration-ms="5825" started-at="2018-09-12T10:08:07Z" finished-at="2018-09-12T10:08:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-      </class> <!-- com.jingzhaopan.selenium.test001 -->
+        </test-method> <!-- getLoginHome -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.dangjian.selenium.testCase.login@3214ee6]" name="testLogin" is-config="true" duration-ms="6697" started-at="2018-09-12T10:08:13Z" finished-at="2018-09-12T10:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="organizationalActivity()[pri:0, instance:com.dangjian.selenium.testCase.login@3214ee6]" name="organizationalActivity" duration-ms="14301" started-at="2018-09-12T10:08:20Z" finished-at="2018-09-12T10:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationalActivity -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:com.dangjian.selenium.testCase.login@3214ee6]" name="signOut" is-config="true" duration-ms="6391" started-at="2018-09-12T10:08:34Z" finished-at="2018-09-12T10:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.dangjian.selenium.testCase.login@3214ee6]" name="close" is-config="true" duration-ms="89" started-at="2018-09-12T10:08:41Z" finished-at="2018-09-12T10:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.dangjian.selenium.testCase.login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
